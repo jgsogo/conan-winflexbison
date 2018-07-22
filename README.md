@@ -20,7 +20,11 @@ Build status:
     </thead>
     <tr>
         <td>master</td>
-        <td><a href="https://ci.appveyor.com/project/jgsogo/conan-winflexbison"><img src="https://ci.appveyor.com/api/projects/status/3mfk5xlfvxtn37vm/branch/master" alt="Build status master-windows"/></a></td>
+        <td><a href="https://ci.appveyor.com/project/jgsogo/conan-winflexbison"><img src="https://ci.appveyor.com/api/projects/status/sbu2sohg582h8252/branch/master" alt="Build status master-windows"/></a></td>
+    </tr>
+    <tr>
+        <td>stable/2.5.14</td>
+        <td><a href="https://ci.appveyor.com/project/jgsogo/conan-winflexbison"><img src="https://ci.appveyor.com/api/projects/status/sbu2sohg582h8252/branch/stable/2.5.14" alt="Build status master-windows"/></a></td>
     </tr>
 </table>
 
