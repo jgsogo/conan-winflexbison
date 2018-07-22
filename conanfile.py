@@ -23,6 +23,8 @@ class WinflexbisonConan(ConanFile):
     def build(self):
         cmake = CMake(self)
         cmake.configure(source_folder=self.lib_name)
+        if self.settings.compiler.version == "12":
+            tools.replace_in_file(os.path.join(self.lib_name, 'flex', 'src', 'flexdef.h'), "#include <stdio.h>", "#include <stdio.h>\n#define snprintf _snprintf")
         cmake.build()
 
     def package(self):
