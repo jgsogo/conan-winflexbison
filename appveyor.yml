@@ -8,7 +8,7 @@ environment:
 
     matrix:
         # Build for Visual Studio 2012
-        - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2012
+        - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2013
           CONAN_VISUAL_VERSIONS: 11
           CONAN_ARCHS: x86_64
         # Build for Visual Studio 2013
