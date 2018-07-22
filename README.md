@@ -1,5 +1,5 @@
 # conan-winflexbison
-A [Conan](https://conan.io) package recipe for the [winflexbison](https://github.com/lexxmark/winflexbison)
+A [Conan](https://conan.io) package recipe for the [winflexbison](https://github.com/lexxmark/winflexbison). Requires Visual Studio 2013 or superior.
 
 Example files inside `test_package` folder are taken from [meyerd/flex-bison-example](https://github.com/meyerd/flex-bison-example).
 
