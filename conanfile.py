@@ -5,9 +5,9 @@ from conans import ConanFile, CMake, tools
 class WinflexbisonConan(ConanFile):
     name = "winflexbison"
     version = "2.5.14"
-    license = "<Put the package license here>"
-    url = "<Package recipe repository url here, for issues about the package>"
-    description = "<Description of Winflexbison here>"
+    license = "Apache 2.0"
+    url = "https://github.com/jgsogo/conan-winflexbison"
+    description = "Conan package for winflexbison: a windows port the Flex (the fast lexical analyser) and Bison (GNU parser generator)."
     settings = "os", "compiler", "build_type", "arch"
     generators = "cmake"
 
